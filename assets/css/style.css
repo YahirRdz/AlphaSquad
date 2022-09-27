@@ -44,7 +44,7 @@ a {
 
 header{
     background-color: var(--firs-color);
-    padding: 0 90px;
+    padding: 0 195px;
     width: 100%;
     height: 91px;   
 }
@@ -82,10 +82,7 @@ header{
     text-align: center;
     letter-spacing: 0.2px;
     opacity: 0.6;
-}
-
-.nav__items{
-    margin-left: 10px;
+    gap: 20px;
 }
 .nav__list li a{
     transition: all 0.3s ease 0s;
@@ -150,6 +147,17 @@ header{
     color: var(--second-color);
     border: 1px solid #23A6F0;
     border-radius: 5px;
+}
+
+.btn__suscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    width: 117px;
+    background: #23A6F0;
+    border: 1px solid #E6E6E6;
+border-radius: 0px 5px 5px 0px;
 }
 /* Home */
 
@@ -427,6 +435,14 @@ height: 292px;
     display: flex;
     justify-content: space-between;
 }
+.boxing__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    text-align: center;
+}
 .pricing{
     width: 100%;
     height: 75.75rem;
@@ -614,6 +630,7 @@ height: 24px;
     line-height: 24px;
 }
 .pric_pric_box_p{
+    text-align: initial;
     width: 280px;
     height: 60px;
 }
@@ -881,16 +898,17 @@ height: 317.01px;
     color: #FFFFFF;
 }
 .input__contact{
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
     width: 571px;
     height: 58px;
     border: 1px solid #E6E6E6;
 }
-.btn__contact{
-    width: 117px;
-    height: 58px;
-    background-color: var(--second-color);
-    border: 1px solid #E6E6E6;
-    border-radius: 0px 5px 5px 0px;
+.search__input{
+    display: flex;
+}
+.input__contact::placeholder{
+    padding-left: 20px;
 }
 
 /* Footer */
@@ -965,8 +983,7 @@ height: 317.01px;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-
-    width: 97px;
+    width: 102px;
     height: 126px;
 }
 .footer__List2{
@@ -1002,6 +1019,7 @@ height: 317.01px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: initial;
     gap: 25px;
     width: 238px;
     height: 146px;
@@ -1010,6 +1028,7 @@ height: 317.01px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: initial;
     gap: 20px;
     width: 241px;
     height: 178px;
@@ -1018,6 +1037,7 @@ height: 317.01px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: initial;
     padding: 0px;
     gap: 20px;
     
@@ -1028,6 +1048,7 @@ height: 317.01px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: initial;
     padding: 0px;
     gap: 20px;
     width: 128px;
