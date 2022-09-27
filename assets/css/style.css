@@ -710,6 +710,7 @@ height: 24px;
 }
 
 .opinion__head h6{
+    text-align: initial;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -725,6 +726,7 @@ height: 24px;
     text-align: center;
 }
 .opinion__head h2{
+    text-align: initial;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
@@ -734,6 +736,7 @@ height: 24px;
 .opinion__head p{
     width: 469px;
     height: 40px;
+    text-align: initial;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
