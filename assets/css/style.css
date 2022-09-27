@@ -344,7 +344,7 @@ height: 292px;
     text-align: center;
 }
 .rectangule{
-    left: 589px;
+    left: 378.5px;
     width: 116px; 
     height: 138px; 
     background:#B6D7FF;
@@ -358,7 +358,7 @@ height: 292px;
 .circle{
     width: 59px;
     height: 59px;
-    top: 653px;
+    top: 493px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     position: absolute;
@@ -372,6 +372,7 @@ height: 292px;
     gap: 30px;
     width: 508px;
     height: 552px;
+    position: relative;
     justify-self: center;
 }
 .img_product{
