@@ -428,6 +428,14 @@ height: 292px;
     text-align: left;
     color: #252B42;
 }
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
 /* Pricing */
 .pricing__box{
     width: 1045px;
@@ -437,19 +445,22 @@ height: 292px;
 }
 .boxing__container{
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     justify-content: center;
     row-gap: 2rem;
     text-align: center;
 }
 .pricing{
-    width: 100%;
     height: 75.75rem;
     position: relative;
     row-gap: 5rem;
-    padding: 0px 12.188rem;
     color: #252B42; 
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;  
 }
 .pricing__container{
     display: flex;
@@ -466,6 +477,9 @@ height: 292px;
     letter-spacing: .2px;
     color: #23A6F0;
     font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
 }
 .tittle_pricing{
     font-size: 40px;
@@ -721,11 +735,17 @@ height: 24px;
     border-radius: 0px;
 }
 .opinion{
-    width: 100%;
     height: 855px;
-    padding: 0px 12.188rem;
+    display: flex;
+    position: relative;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
 }
-
+.opinion__head{
+    width: 1045px;
+}
 .opinion__head h6{
     text-align: initial;
     font-weight: 700;
@@ -806,6 +826,13 @@ height: 317.01px;
     height: 50px;
 }
 .text{
+    width: 159px;
+    height: 120px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
     color: var(--text-color2);
 }
 .stars{
@@ -1054,3 +1081,5 @@ height: 317.01px;
     width: 128px;
     height: 178px;
 }
+ /* Media Query */
+ 
