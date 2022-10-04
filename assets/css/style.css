@@ -444,11 +444,9 @@ height: 292px;
     top: 29px;
 }
 .product__info{
-
-    margin-left: 153px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 .product__pa{
     font-weight: 400;
@@ -1172,8 +1170,10 @@ height: 317.01px;
     }
     .rectangule{
         left: 0px;
+        display: none;
     }
     .circle{
+        display: none;
         top:0px;
     }
     /*----------------------------------------------------------------PRICING----------------------------------------------------------------*/
@@ -1288,9 +1288,11 @@ height: 317.01px;
             top: 29px;
     }
     .rectangule{
+        display: none;
         left: 0px;
     }
     .circle{
+        display: none;
         top: 0px;
     }
     .product__info{
@@ -1450,10 +1452,17 @@ height: 317.01px;
     width: 90%;
     }
     .home__head{
-        width: 91%;
+        width: 90%;
+    }
+    .home__title{
+        font-size: 50px;
     }
     .product__img {
         max-width: 74%;
+    }
+    .home__subt2{
+        font-size: 18px;
+        text-align: center;
     }
     .img_product{
         max-height: 80%;
@@ -1463,9 +1472,34 @@ height: 317.01px;
         max-width: 380px;
         width: 100%;
     }
+    .rectangule{
+        display: none;
+    }
+    .circle{
+        display: none;
+    }
+    .product__container{
+        justify-items: center;
+    }
+    .title__header{
+        max-width: 888px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto ;
+    }
     .opinion__head{
         max-width: 888px;
-        width: 100%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .contact__info{
+        margin-left: auto;
+        margin-right: auto;;
+    } 
+    .contact__search{
+        margin-left: auto;
+        margin-right: auto;
     }
     .contact__info p{
         max-width: 450px;
@@ -1506,7 +1540,6 @@ height: 317.01px;
         width: 100%;
         margin-right: auto;
 }
-    }
     .title__header{
         margin-left: auto;
         margin-right: auto;
@@ -1519,10 +1552,43 @@ height: 317.01px;
         margin-left: auto;
         margin-right: auto;
     }
-}
+    .Cr__text{
+        max-width: 1400px;
+        width: 100%;
+    }
+ }
 
+ @media (min-width: 891px){
+    .nav__toggle{
+        display: none;
+    }
+    .contact__info{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact__search{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer__header{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title__header{
+        max-width: 1236px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .opinion__head{
+        max-width: 1236px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+ }
 /*===== Pantalla completa pequeña =====*/
-@media screen and (min-width:992) {
+/* @media screen and (min-width:891px) and (max-width: 1241px) {
     .home,
     .product,
     .pricing,
@@ -1532,9 +1598,15 @@ height: 317.01px;
     .footer__header{
         height: auto;
     }
+    .nav__toggle i{
+        display: none;
+    }
     .home__boxes div{
         max-width: 328px;
         width: 90%;
+    }
+    .contact__info {
+        margin-left: auto;
     }
     .product__container{
         margin-left: 197px;
@@ -1558,11 +1630,17 @@ height: 317.01px;
         max-width: 1044px;
         width: 100%;
     }
+    .pricing__card{
+        max-width: 328px;
+        width: 98%;
+        max-height: 678px;
+        height: 100%;;
+    }
     .opinion__head{
         max-width: 1044px;
         width: 100%;
         
     }
-}
+} */
 
 
