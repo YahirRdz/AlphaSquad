@@ -238,9 +238,6 @@ button {
     color: var(--text-color);
 }
 .btn__suscribe{
-    display: flex;
-    justify-content: center;
-    text-align: center;
     font-size: 14px;
     font-size: 400;
     color: var(--white);
@@ -1331,6 +1328,7 @@ height: 317.01px;
     .Cr__text h6{
         font-size: 13px;
     }
+
 }
 /* s */
 @media screen and (min-width:376px) and (max-width: 442px){
