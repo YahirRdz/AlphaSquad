@@ -379,6 +379,10 @@ height: 292px;
     background-color: white;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
+.box__one:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
 .box__icon1{
     display: flex;
     flex-direction: column;
@@ -443,6 +447,10 @@ height: 292px;
     background-color: white;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
+.box__two:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
 .box__three{
     display: flex;
     flex-direction: column;
@@ -453,6 +461,10 @@ height: 292px;
     height: 292px;
     background-color: white;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.box__three:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 /* Product */
 .product{
@@ -632,7 +644,10 @@ grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     width: 328px;
     height: 678px;
 }
-
+.pricing__card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
 
 .pricing__img1{
     height: 300px;
@@ -923,6 +938,10 @@ max-width: 328px;
 width: 90%;
 height: 317.01px;
 }
+.op_card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
 .opinion__card{
     display: flex;
     flex-direction: column;
@@ -1050,6 +1069,7 @@ height: 317.01px;
     color: #FFFFFF;
 }
 .input__contact{
+    padding-left: 30px;
     border: 1px solid #E6E6E6;
     border-radius: 5px;
     width: 571px;
@@ -1328,6 +1348,7 @@ height: 317.01px;
     .Cr__text h6{
         font-size: 13px;
     }
+    
 
 }
 /* s */
