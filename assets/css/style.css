@@ -125,9 +125,10 @@ button {
     letter-spacing: 0.10000000149011612px;
     text-align: left;
     color: var(--text-color);
-    padding-top: 17px;
+    padding-top: 27px;
     cursor: pointer;
 }
+
 .nav__elements{
     display: flex;
     flex-direction: row;
