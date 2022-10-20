@@ -20,7 +20,7 @@ const srD = ScrollReveal({
 });
 
 srD.reveal(
-  ".nav,.home__data,.product__info,.pricing,.opinion__head,.contact__container,.footer__sec1,.footer__sec2,.footer__sec3,.footer__sec4",
+  ".nav,.home__data,.product__info,.pricing,.pricing__card,.opinion__head,.contact__container,.footer__sec1,.footer__sec2,.footer__sec3,.footer__sec4",
   {
     interval: 200,
   }
